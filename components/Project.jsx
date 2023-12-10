@@ -8,7 +8,7 @@ const Project = () => {
             title: "HTML",
             description: "This is my HTML project during my first year semester 2. It is built with pure HTML, CSS, Javascript. No additional library, JQuery or PHP",
             image: "/projects/HTML.gif",
-            gitUrl: "",
+            gitUrl: "https://drive.google.com/drive/folders/1U3EzTrrgM1cKGNCK4ASwVyyNTs0677vT?usp=sharing",
             status: "Completed"
         },
         {
