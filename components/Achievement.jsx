@@ -13,7 +13,7 @@ const Achievement = () => {
         {
             name: "Years",
             value: 2,
-        }
+        },
     ];
 
     return(

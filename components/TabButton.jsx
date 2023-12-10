@@ -11,4 +11,5 @@ const buttonClass = active
         </button>
     );
 };
+
 export default TabButton;
