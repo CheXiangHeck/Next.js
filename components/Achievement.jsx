@@ -4,7 +4,7 @@ const Achievement = () => {
     const achievements = [
         {
             name: "Project",
-            value: 5, 
+            value: 5,
         },
         {
             name: "Awards",
@@ -16,15 +16,15 @@ const Achievement = () => {
         },
     ];
 
-    return(
+    return (
         <div className="w-full h-[300px] bg-white text-black flex flex-col">
             <div className="bg-gradient-to-b from-black to-white p-6 h-[100px] w-full">
             </div>
             <div className="h-full w-full flex justify-center items-center">
                 {achievements.map((achievement, index) => {
-                    return(
+                    return (
                         <div
-                            key={index}  {/* Add key prop here */}
+                            key={index}  {/* Corrected comment syntax */}
                             className="flex flex-col justify-center items-center w-[200px] p-5"
                         >
                             <h2 className="text-emerald-400 font-bold text-4xl">
@@ -40,7 +40,7 @@ const Achievement = () => {
             <div className="bg-gradient-to-t from-black to-white p-6 h-[100px] w-full">
             </div>
         </div>
-    ); 
+    );
 };
 
 export default Achievement;
