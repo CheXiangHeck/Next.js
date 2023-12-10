@@ -10,7 +10,6 @@ import Email from "@/components/Contact";
 export default function Home(){
   return(
     <div className="flex min-h-screen flex-col">
-      <Navbar />
       <main>
       <HeroSection />
       <AboutMe />
