@@ -21,9 +21,10 @@ const Achievement = () => {
             <div className="bg-gradient-to-b from-black to-white p-6 h-[100px] w-full">
             </div>
             <div className="h-full w-full flex justify-center items-center">
-                {achievements.map((achievement) => {
+                {achievements.map((achievement, index) => {
                     return (
                         <div
+                            key={index}
                             className="flex flex-col justify-center items-center w-[200px] p-5"
                         >
                             <h2 className="text-emerald-400 font-bold text-4xl">
