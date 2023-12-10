@@ -5,7 +5,7 @@ import Navbar from "@/components/NavBar";
 import Achievement from "@/components/Achievement";
 import Footer from "@/components/Footer";
 import AboutMe from "@/components/AboutMe";
-import Email from "@/components/Email";
+import Email from "@/components/Contact";
 
 export default function Home(){
   return(

@@ -17,6 +17,7 @@ const TAB_DATA = [
                 <li>CSS</li>
                 <li>PHP</li>
                 <li>Tailwind CSS</li>
+                <li>GitHub</li>
                 <li>Python</li>
           </ul>
         ),
