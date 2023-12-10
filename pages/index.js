@@ -1,7 +1,6 @@
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import Project from "@/components/Project"
-import Navbar from "@/components/NavBar";
 import Achievement from "@/components/Achievement";
 import Footer from "@/components/Footer";
 import AboutMe from "@/components/AboutMe";

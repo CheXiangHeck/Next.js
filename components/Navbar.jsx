@@ -2,7 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="scrolled-header sticky top-0 left-0 w-full border-b border-[#4d4e53] shadow-sm text-xl bg-black z-10 mx-auto">
+    <nav className="scrolled-header sticky top-0 left-0 w-full border-b border-[#4d4e53] shadow-sm text-xl z-10 mx-auto"
+    style={{backgroundImage:'url(/projects/NavHover.gif)', backgroundSize:'cover'}}>
       <div className="px-12 h-24 flex justify-between items-center text-white relative">
         <a href="#" className="md:inline hidden">#LearnEXP</a>
         <a href="#" className="md:hidden">#Learn</a>
