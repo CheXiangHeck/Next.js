@@ -1,7 +1,24 @@
 import React from "react";
+import HeroSection from "@/components/HeroSection";
+import Project from "@/components/Project"
+import Navbar from "@/components/NavBar";
+import Achievement from "@/components/Achievement";
+import Footer from "@/components/Footer";
+import AboutMe from "@/components/AboutMe";
+import Email from "@/components/Email";
 
 export default function Home(){
   return(
-    <div>h1</div>
-  )
+    <div className="flex min-h-screen flex-col">
+      <Navbar />
+      <main>
+      <HeroSection />
+      <AboutMe />
+      <Email />
+      <Achievement />
+      <Project />
+      </main>
+      <Footer />
+    </div>
+  );
 }
