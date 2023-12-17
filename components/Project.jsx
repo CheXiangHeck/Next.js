@@ -31,14 +31,14 @@ const Project = () => {
             id: 4,
             title: "Java",
             description: "This is my year 2 semester 1. To be honest, this project is a mess so I am trying to fix it up. There are lack of team communication which I am trying to improve as a team leader.",
-            image: "/projects/megamask.png",
+            image: "",
             gitUrl: "",
             status: "Undergoing"
         }, {
             id: 5,
             title: "Data Struture",
             description: "Same as Java, it was a mess. Still unable to have a good team play yet, too focusing on individual work.",
-            image: "/projects/zkJom.png",
+            image: "",
             gitUrl: "",
             status: "Undergoing"
         }, {
