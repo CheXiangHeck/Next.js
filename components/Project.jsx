@@ -41,6 +41,13 @@ const Project = () => {
             image: "/projects/zkJom.png",
             gitUrl: "",
             status: "Undergoing"
+        }, {
+            id: 6,
+            title: "Java",
+            description: "This project is still underprogress",
+            image: "/projects/JavaProject.png",
+            gitUrl: "https://drive.google.com/drive/folders/1Y-J983YfxxYNQ6EDfUNq-YMrDlzLYAXW?usp=sharing",
+            status: "Undergoing"
         },
     ];
 
