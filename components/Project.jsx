@@ -48,7 +48,14 @@ const Project = () => {
             image: "/projects/JavaProject.png",
             gitUrl: "https://drive.google.com/drive/folders/1Y-J983YfxxYNQ6EDfUNq-YMrDlzLYAXW?usp=sharing",
             status: "Undergoing"
-        },
+        }, {
+            id: 7,
+            title: "React",
+            description: "An website named Freshly Dropped is made",
+            image: "",
+            gitUrl: "https://freshly-dropped.vercel.app/",
+            status: "Undergoing"
+        }
     ];
 
     return (
